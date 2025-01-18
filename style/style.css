@@ -258,3 +258,53 @@ background-color: rgba(0, 106, 80, 1);
 border-radius: 8px;
 border: none;
 }
+
+
+.donate{
+  margin: 80px 160px;
+}
+
+.donate-title{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.donate-description{
+  font-size: 16px;
+  text-align: center;
+  padding: 0px 88px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.donate-taka{
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  align-items: center;
+}
+
+.donate-amount{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 16px;
+  padding: 40px 40px 40px 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  max-width: 240px;
+  cursor: pointer;
+}
+.donate-amount:hover{
+  background-color: rgba(198, 228, 214, 1);
+}
+
+.other-amount{
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.3);
+  text-align: center;
+  margin: 32px 124px;
+  padding: 20px 422.5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.done{
+  text-align: center;
+}
